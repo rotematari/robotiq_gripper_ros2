@@ -1,0 +1,8 @@
+<library path="robotiq_gripper_rviz">
+  <class
+    name="robotiq_gripper_rviz/GripperPanel"
+    type="robotiq_gripper_rviz::GripperPanel"
+    base_class_type="rviz_common::Panel">
+    <description>Go to a width with a speed and force; open, close, stop, activate and reset a Robotiq gripper.</description>
+  </class>
+</library>

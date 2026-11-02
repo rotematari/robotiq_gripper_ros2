@@ -1,0 +1,13 @@
+# Robotiq Hand-E. Copy and edit for your setup; `port` is set by the launch file.
+/**:
+  ros__parameters:
+    model: hande
+    device_id: 9
+    joint_name: gripper_width
+    status_rate: 20.0      # Hz; at least 2 (the gripper faults after 1 s without communication)
+    default_speed: 0.05    # m/s, used when a goal has no velocity (range 0.02-0.15)
+    default_force: 40.0    # N, used when a goal has no effort (range 20-130, approximate)
+    open_register: 0       # position register at full opening; calibrate with calipers
+    closed_register: 255   # position register at zero opening
+    move_timeout: 5.0      # s allowed beyond a full stroke at the commanded speed
+    auto_activate: false   # activation sweeps the fingers through the full stroke
