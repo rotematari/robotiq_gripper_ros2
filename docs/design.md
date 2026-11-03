@@ -109,8 +109,9 @@ gripper that needs no hardware).
 
 ## Where it lives
 
-`packages/robotiq-gripper-ros2` in the PhD workspace, as its own git repository
-(GitHub publication still to be confirmed by Rotem). Build products (`build/`,
+Public repository [rotematari/robotiq_gripper_ros2](https://github.com/rotematari/robotiq_gripper_ros2),
+published on 3 November 2026; the PhD workspace includes it as a submodule at
+`packages/robotiq-gripper-ros2`. Build products (`build/`,
 `install/`, `log/`, `.venv/`) are git-ignored next to the source.
 
 ## Verification
